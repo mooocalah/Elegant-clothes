@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    font-family: DM+Serif+Display;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-top:solid crimson 2px
+
+}
+header a:hover {
+    color: rgb(190, 216, 20);
+    font-size: 18px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px
+    
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: ease 1s;
+    font-size: 15px;
+   
+}
+
+.showcase {
+   background-color: rgb(195, 179, 170);
+    height: 100vh;
+    color: #330404;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    background-image: url(image/dres2s.jpeg);
+    align-items: center;
+    padding: 0px 100px;
+    background-blend-mode: overlay;
+    font-size: 20px;
+}
+
+.showcase h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(67, 14, 4);
+}
+.showcase a{
+    background-color: rgb(247, 62, 62);
+    color: #ebe5e5;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 0px 020px 0px 30px;
+    background-size: cover;
+    font-size: 25px;
+    transition: ease 1s;
+}
+
+.showcase a:hover{
+    font-size: 20px;
+    background-color: #5e2407;
+}
+
+.products {
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin: 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    text-align: center;
+    display: flex;
+    border: solid;
+    font-size: 170px;
+    background: url(images33/ملابس.jpeg);
+    margin-top: 15px;
+}
+
+.products h2{
+    text-align: center;
+    font-size: 30px;
+    color: #d91310;
+}
+.products h3{
+    font-size: 25px;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    
+}
+.price {
+    font-weight: bold;
+    margin-top: 15px;
+    
+    font-size: 60px;
+
+}
+.product{
+    padding: 10px;
+    margin-top: 20px;
+    margin: 10px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    text-align: center;
+    display: flex;
+    border: solid;
+    font-size: 120px;
+    background: url(images33/ملابس\ اطفال.jpeg2.jpeg);
+   
+}
+.product h1{
+    text-align: center;
+    font-size: 30px;
+    color: #d91310;
+}
+.product h2{
+    font-size: 25px;
+    color: #2f2d2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.produc{
+    padding: 10px;
+    margin-top: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    text-align: center;
+    display: flex;
+    border: solid;
+    font-size: 120px;
+    background: url(images33/dress.jpeg);
+}
+.produc h1{
+    text-align: center;
+    font-size: 30px;
+    color: #d91310;
+}
+.produc h2{
+    font-size: 25px;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

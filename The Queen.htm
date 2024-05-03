@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Queen</title>
+    <link rel="stylesheet" href="The%20Queen_files/style.Css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>The Queen</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About the store</a></li>
+                <li><a href="#">Connect with us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div style="height: 0px;"></div>
+
+
+<main>
+
+    <section class="showcase">
+        <div class="container">
+            <h2>الأزياء الجديدة</h2>
+            <p>Create your own unique style!Are you ready to elevate 
+your style and make a fashion statement? Look no further ! Introducing 
+our exclusive collection of fashionable clothzing that will take your 
+wardrobe to new heights .z</p>
+            <a href="">تسوق أحدث الموديلات الرائعة</a>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <h2>المنتجات</h2>
+
+            <h3>Winter clothes</h3>
+                <p class="price">$20</p>
+                <button>أضف إلى السلة</button>
+            </div>
+            
+        
+    </section>
+</main>
+
+
+<main>
+    <section class="product">
+        <div class="card">
+            <h1>المنتج</h1>
+            <h2>Summer Dress</h2>
+            <p class="price">$30</p>
+            <button>أضف إلى السلة</button>
+        </div>
+
+    </section>
+</main>
+
+
+
+<main>
+    <section class="produc">
+        <div class="card">
+            <h1>المنتج</h1>
+            <h2>Summer Dress</h2>
+            <p class="price">$52</p>
+            <button>أضف إلى السلة</button>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>جميع الحقوق محفوظة © 2024</p>
+    </div>
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
